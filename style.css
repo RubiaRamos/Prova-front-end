@@ -10,7 +10,7 @@ body{
     color: white;
 }
 
-h1{
+h1, h2, p{
     color: rgb(84, 10, 10);;
 }
 
@@ -33,3 +33,31 @@ h1{
     background-color: white;
 }
 
+.evento{
+        
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 35px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.jornal{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 150px;        
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.imagens{
+    width: 100px;
+    height: auto;
+}
