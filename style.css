@@ -10,12 +10,16 @@ body{
     color: white;
 }
 
+h1{
+    color: rgb(84, 10, 10);;
+}
+
 .central{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-    background: rgb(84, 10, 10);;
+    background: rgb(84, 10, 10);
     overflow: hidden;
 }
 
@@ -26,4 +30,6 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: white;
 }
+
