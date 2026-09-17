@@ -10,9 +10,19 @@ body{
     color: white;
 }
 
-h1, h2, p{
-    color: rgb(84, 10, 10);;
+h2, 
+p, 
+.titulo,
+h3, figcaption{
+    color: rgb(84, 10, 10);
+
 }
+
+a{
+    color:rgb(84, 10, 10);
+    text-decoration:none;
+}
+
 
 .central{
     width: 100%;
@@ -33,11 +43,17 @@ h1, h2, p{
     background-color: white;
 }
 
-.evento{
-        
-    width: 500px;
+.conteudo{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    padding:13px 48px 0;
+}
+
+.evento{        
+    width: 350px;
     height: auto;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -46,18 +62,68 @@ h1, h2, p{
     border-radius: 15px;
 }
 
-.jornal{
-        
-    display: flex;
+.jornal{        
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding: 150px;        
+    padding: 100px;        
     margin: 15px;
     border-radius: 15px;
 }
 
 .imagens{
-    width: 100px;
+    width: 300px;
     height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.enviar {
+    align-items: center;
+    width: 50px;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+
+.ponte{        
+    width: 750px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 35px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    margin: 10px;   
+}
+
+.sobre {
+    background-color: white;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.oqueeh {
+    background-color: white;
+    width: 30%;
+    margin:20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+li {
+    color: black;
+    margin:20px;
+}
+
+.maior {
+    display: flex;
 }
